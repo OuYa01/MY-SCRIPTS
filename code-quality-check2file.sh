@@ -20,4 +20,3 @@ echo -e "\033[44mHave a good luck with Betty\033[0m"
 
 # Check the additional file with Betty
 betty "$2"
-
