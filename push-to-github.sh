@@ -11,6 +11,7 @@ fi
 printf "%*s\n" $(( ($(tput cols) + 21) / 2 ))  '' | tr ' ' -
 echo -e "\033[44m$1\033[0m"
 git add .
+git status
 git commit -m "$1"
 git push 
 make
